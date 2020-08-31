@@ -2,9 +2,9 @@ import React, { Fragment,useState } from 'react'
 import { AddCategorias } from './Components/AddCategorias';
 import { GifGrid } from './Components/GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategorias=[]}) => {
    //const categorias =['Perros','Anime','Videojuegos', 'One-punch'];
-   const [categorias, setCategorias] = useState(['Perros']);
+   const [categorias, setCategorias] = useState(defaultCategorias);
 //    const hadleAddCategorias=()=>{
 //         // setCategorias([...categorias,'Pokemon']);
 //         setCategorias(categ=>[...categ,'Pokemon']);

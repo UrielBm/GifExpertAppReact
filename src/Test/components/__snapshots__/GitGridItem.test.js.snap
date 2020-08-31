@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el uso correcto del componmente de React GitGridItem.js Debe mostrar el componente correctamente 1`] = `
+<div
+  className="wrapper-gift-item"
+>
+  <img
+    alt="Titulo de imagen"
+    className="gift"
+    src="http://localhost/algo.jpg"
+  />
+  <p
+    className="titulo-gift animate__animated animate__bounceIn animate__delay-1s "
+  >
+    Titulo de imagen
+  </p>
+</div>
+`;

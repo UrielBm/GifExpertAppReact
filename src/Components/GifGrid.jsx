@@ -1,4 +1,5 @@
 import React, {Fragment}from 'react'
+import PropTypes from 'prop-types';
 import { useFectchGifts } from '../hooks/useFectchGifs'
  import { GitGridItem } from './GitGridItem';
 export const GifGrid = ({categoria}) => {
@@ -19,4 +20,7 @@ export const GifGrid = ({categoria}) => {
             </div>
         </Fragment>
     )
+}
+GifGrid.propTypes={
+    categoria: PropTypes.string.isRequired
 }

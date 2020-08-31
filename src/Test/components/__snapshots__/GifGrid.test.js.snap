@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Evaluando el componente GifGrid.jsx Deberia mostrar el componenete de manera correcta <GifGrind />   1`] = `
+<Fragment>
+  <h3
+    className="titulo-Categoria"
+  >
+    Sherk
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+  <div
+    className="wrapper-card-gift-item animate__animated animate__bounceInDown"
+  />
+</Fragment>
+`;
+
+exports[`Evaluando el componente GifGrid.jsx debe mostrar items cuando se carga imagenes useFetchGifs  1`] = `
+<Fragment>
+  <h3
+    className="titulo-Categoria"
+  >
+    Sherk
+  </h3>
+  <div
+    className="wrapper-card-gift-item animate__animated animate__bounceInDown"
+  >
+    <GitGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+    <GitGridItem
+      id="123"
+      key="123"
+      title="Cualquier cosa2"
+      url="https://localhost/cualquier2/cosa2.jpg"
+    />
+  </div>
+</Fragment>
+`;
